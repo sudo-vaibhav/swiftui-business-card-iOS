@@ -11,6 +11,8 @@
 		E21B575C25646A8500B16003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21B575B25646A8500B16003 /* ContentView.swift */; };
 		E21B575E25646A8900B16003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21B575D25646A8900B16003 /* Assets.xcassets */; };
 		E21B576125646A8900B16003 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21B576025646A8900B16003 /* Preview Assets.xcassets */; };
+		E2B1DB02256475D200A8E27B /* pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2B1DB01256475D200A8E27B /* pacifico.ttf */; };
+		E2B1DB052564848800A8E27B /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B1DB042564848800A8E27B /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		E21B575D25646A8900B16003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E21B576025646A8900B16003 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E21B576225646A8900B16003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B1DB01256475D200A8E27B /* pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pacifico.ttf; sourceTree = "<group>"; };
+		E2B1DB042564848800A8E27B /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		E21B575825646A8500B16003 /* myBusinessCard */ = {
 			isa = PBXGroup;
 			children = (
+				E21B57692564728D00B16003 /* fonts */,
 				E21B575925646A8500B16003 /* myBusinessCardApp.swift */,
 				E21B575B25646A8500B16003 /* ContentView.swift */,
+				E2B1DB042564848800A8E27B /* InfoView.swift */,
 				E21B575D25646A8900B16003 /* Assets.xcassets */,
 				E21B576225646A8900B16003 /* Info.plist */,
 				E21B575F25646A8900B16003 /* Preview Content */,
@@ -67,6 +73,14 @@
 				E21B576025646A8900B16003 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E21B57692564728D00B16003 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E2B1DB01256475D200A8E27B /* pacifico.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B1DB02256475D200A8E27B /* pacifico.ttf in Resources */,
 				E21B576125646A8900B16003 /* Preview Assets.xcassets in Resources */,
 				E21B575E25646A8900B16003 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E21B575C25646A8500B16003 /* ContentView.swift in Sources */,
+				E2B1DB052564848800A8E27B /* InfoView.swift in Sources */,
 				E21B575A25646A8500B16003 /* myBusinessCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
